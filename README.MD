@@ -37,7 +37,7 @@ Projeto com o objetivo de gerar um artigo técnico com um layout rico, leitura a
 ## 💻 Tecnologias utilizadas no projeto
 
 - [ChatGPT](https://chat.openai.com/) - para título e conteúdo
-- [Lexica.art](https://lexica.art/) - para gerar imagens
+- [Stable Diffusion](https://www.shakker.ai/aigenerator) - para gerar imagens
 - [PowerPoint](https://www.microsoft.com/en/microsoft-365/powerpoint) - Para formatação de banners e Layouts
 
 ## 📄 Prompts e ferramentas
@@ -47,22 +47,33 @@ ChatGPT：
 
 |   Ação   | prompt                                                                                                                                                                                                                                                                         |
 | :------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-|  título  | Crie 10 headlines para nomes de artigos sobre o assunto Angular - Diretivas                                                                                                                                                                                                    |
-| conteúdo | Faça um texto para ebook , com foco em CSS, listando os principais seletores CSS com exemplos em código {REGRAS} Explique sempre de uma maneira simples Deixe o texto enxuto, Sempre traga exemplos de código em contextos reais , sempre deixe um título sugestivo por tópico |
+|  título  | Crie 10 headlines para nomes de artigos sobre o assunto Engenheiros Civil e Programação                                                                                                                                                                                                    |
+| conteúdo | Comporte-se como um escritor de artigos tech front-end e escreva o Artigo atendendo as regras abaixo
+
+{Regras}
+> No máximo 5 linhas por bloco de explicação
+> Explique de forma informal como se fosse para recém formados ou engenheiros sênior
+> Crie subtítulos para cada bloco
+> Os blocos que serão criados estão abaixo:
+- Engenharia Civil e ceticismo profissional
+- Necessidade de atualização
+- Otimização do tempo e diminuição de erros nos projetos
+- Programação básica para engenheiros
+- Conclusão |
 
 
-Lexica.art：
+Stable Diffusion：
 
-- No léxica utilizamos o acervo público de imagens geradas por outras pessoas, os termos de pesquisa que utilizei durante a gravação do conteúdo foram:
+- No Stable Diffusion gerei uma imagem, os termos de pesquisa que utilizei para a geração do conteúdo foi:
 
-• Angular
+• man with construction helmet working in a notebook and the notebook screen has a python code
 
 
 
 ## ✨ Features
 
 - Conteúdo gerado via ChatGPT
-- Imagens do acervo público geradas via Lexica.art
+- Imagem gerada pelo Stable Diffusion
 
 ## 📚 Materiais
 
@@ -97,4 +108,4 @@ felipe-exe">LinkedIn</a>
 
 ---
 
-⌨️ com 💜 por [Felipe Aguiar](https://github.com/felipeAguiarCode)
+⌨️ com 💜 por [Felipe Aguiar](https://github.com/felipeAguiarCode) OBRIGADO!
